@@ -4,16 +4,16 @@
 <?php include 'connect.php' ?>
 
 <div class = "container mt-5">
-<h2><center>ข้อมูล Province</center></h2>
+<center><h2>ข้อมูล Minor</h2></center>
     <table class = "table table-bordered">
         <tr>
-            <th>ลำดับ</th>
-            <th>รหัสจังหวัด</th>
-            <th>ชื่อจังหวัด</th>
+            <th>รหัสสาขางาน</th>
+            <th>ชื่อสาขางาน</th>
+            <th>คีย์สาขาวิชา</th>
         </tr>
     
 <?php
-    $sql = "SELECT * FROM province";
+    $sql = "SELECT * FROM minor";
     $result = mysqli_query($conn, $sql);
 
     if (mysqli_num_rows($result) > 0) {
@@ -21,9 +21,9 @@
     while($row = mysqli_fetch_assoc($result)) {
        ?>
        <tr>
-        <td><?php echo $row['PROVINCE_ID']?></td>
-        <td><?php echo $row['PROVINCE_CODE']?></td>
-        <td><?php echo $row['PROVINCE_NAME']?></td>
+        <td><?php echo $row['minor_code']?></td>
+        <td><?php echo $row['minor_name']?></td>
+        <td><?php echo $row['major_id']?></td>
        </tr>
        <?php
 
