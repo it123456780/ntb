@@ -12,7 +12,7 @@ include ("connect.php");
             <th>รหัสลูกค้า</th>
             <th>ชื่อลูกค้า</th>
             <th>ที่อยู่</th>
-            <th>ตำแหน่ง</th>
+            <th>ตำแหน่งงาน</th>
             <th>เงินเดือน</th>
         </tr>
     <?php
@@ -35,7 +35,7 @@ include ("connect.php");
 
       }
     } else {
-      echo "0 results";
+      echo "0 result";
     }
     
     mysqli_close($conn);
