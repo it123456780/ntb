@@ -7,19 +7,19 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="index.php">ShowStudent</a>
+        <a class="nav-link" href="index.php">ShowStudent</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="show_customer.php">ShowCustomer</a>
+        <a class="nav-link" href="show_customer.php">ShowCustomer</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="show_minor.php">ShowMinor</a>
+        <a class="nav-link" href="show_minor.php">ShowMinor</a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link disabled" href="show_province.php">ShowProvince</a>
+        <a class="nav-link" href="show_province.php">ShowProvince</a>
       </li>
 
     </ul>
